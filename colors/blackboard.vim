@@ -9,7 +9,7 @@ hi! clear
 " テキスト
 "--------------------------------------------------------------------------------
 " 通常
-hi Normal guifg=#E1E2DE guibg=#242D25 gui=none
+hi Normal guifg=#CEC0AB guibg=#242D25 gui=none
 
 " Conceal
 hi! link Conceal Normal
@@ -37,7 +37,7 @@ hi! link Repeat Statement
 hi! link Exception Statement
 
 " 関数、識別子
-hi! Identifier guifg=#92B792 guibg=NONE gui=none
+hi! Identifier guifg=#ABDBB7 guibg=NONE gui=none
 
 " プリプロセッサメソッド
 hi! PreProc guifg=#ACEFAE guibg=NONE gui=none
@@ -46,7 +46,7 @@ hi! PreProc guifg=#ACEFAE guibg=NONE gui=none
 hi! link Type Normal
 
 " 定数(文字列、文字、数、Boolean)
-hi Constant guifg=#EEEEEE guibg=NONE gui=none
+hi Constant guifg=#BCF2CE guibg=NONE gui=none
 
 " 特殊記号
 hi Special guifg=#ACEFAE guibg=NONE gui=none
