@@ -43,7 +43,7 @@ hi! Identifier guifg=#ABDBB7 guibg=NONE gui=none
 hi! PreProc guifg=#ACEFAE guibg=NONE gui=none
 
 " 型 (クラス、構造体)
-hi Type guifg=#80AD80 guibg=NONE gui=none
+hi! link Type Normal
 
 " 定数(文字列、文字、数、Boolean)
 hi Constant guifg=#BCF2CE guibg=NONE gui=none
@@ -190,6 +190,8 @@ hi diffAdded guifg=NONE guibg=#466060 gui=none
 "--------------------------------------------------------------------------------
 hi! link typescriptDocComment DocComment
 hi! link typescriptBraces Normal
+hi! link typescriptNull Constant
+hi! link typescriptEndColons Operator
 
 " Rust
 "--------------------------------------------------------------------------------
