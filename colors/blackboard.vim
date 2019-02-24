@@ -9,7 +9,7 @@ hi! clear
 " テキスト
 "--------------------------------------------------------------------------------
 " 通常
-hi Normal guifg=#E1E2DE guibg=#242d25 gui=none
+hi Normal guifg=#E1E2DE guibg=#242D25 gui=none
 
 " Conceal
 hi! link Conceal Normal
@@ -180,3 +180,11 @@ hi GitGutterRemove guifg=#94151b guibg=NONE gui=none
 "================================================================================
 " 言語ごとの設定
 "================================================================================
+" TypeScript
+"--------------------------------------------------------------------------------
+hi! link typescriptDocComment DocComment
+hi! link typescriptBraces Normal
+
+" Rust
+"--------------------------------------------------------------------------------
+hi! link rustCommentLineDoc DocComment
