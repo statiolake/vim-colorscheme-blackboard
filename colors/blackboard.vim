@@ -37,7 +37,7 @@ hi! link Repeat Statement
 hi! link Exception Statement
 
 " 関数、識別子
-hi! Identifier guifg=#7C9B7C guibg=NONE gui=none
+hi! Identifier guifg=#92B792 guibg=NONE gui=none
 
 " プリプロセッサメソッド
 hi! PreProc guifg=#ACEFAE guibg=NONE gui=none
