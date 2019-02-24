@@ -199,9 +199,9 @@ hi! link rustCommentLineDoc DocComment
 
 " ALE
 "--------------------------------------------------------------------------------
-hi ALEErrorLine guifg=NONE guibg=#2d1314 gui=none
+hi ALEErrorLine guifg=NONE guibg=NONE gui=none
 hi ALEError guifg=NONE guibg=NONE gui=undercurl
 hi ALEErrorSign guifg=fg guibg=#685354 gui=none
 
-hi ALEWarningLine guifg=NONE guibg=#233030 gui=none
+hi ALEWarningLine guifg=NONE guibg=NONE gui=none
 hi ALEWarning guifg=NONE guibg=NONE gui=undercurl guisp=#0daeaf
