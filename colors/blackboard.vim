@@ -108,7 +108,7 @@ hi PmenuThumb guifg=fg guibg=#525454 gui=none
 " その他
 "--------------------------------------------------------------------------------
 " カーソル
-hi Cursor guifg=NONE guibg=NONE gui=inverse
+hi Cursor guifg=fg guibg=bg gui=inverse
 
 " 行番号
 hi LineNr guifg=#484d4e guibg=NONE gui=none
