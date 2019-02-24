@@ -182,8 +182,8 @@ hi GitGutterRemove guifg=#94151b guibg=NONE gui=none
 "================================================================================
 " Diff
 "--------------------------------------------------------------------------------
-hi diffRemoved guifg=NONE guibg=#2d1314 gui=none
-hi diffAdded guifg=NONE guibg=#233030 gui=none
+hi diffRemoved guifg=NONE guibg=#662B2E gui=none
+hi diffAdded guifg=NONE guibg=#466060 gui=none
 
 " TypeScript
 "--------------------------------------------------------------------------------
