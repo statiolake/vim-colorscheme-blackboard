@@ -25,7 +25,7 @@ hi Comment guifg=#75A377 guibg=NONE gui=none
 hi DocComment guifg=#87BC89 guibg=NONE gui=none
 
 " 命令、分岐
-hi Statement guifg=#EEEEEE guibg=NONE gui=bold
+hi Statement guifg=#EEEEEE guibg=NONE gui=none
 
 " if, not
 hi! link Conditional Statement
