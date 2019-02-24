@@ -43,7 +43,7 @@ hi! Identifier guifg=#ABDBB7 guibg=NONE gui=none
 hi! PreProc guifg=#ACEFAE guibg=NONE gui=none
 
 " 型 (クラス、構造体)
-hi! link Type Normal
+hi Type guifg=#80AD80 guibg=NONE gui=none
 
 " 定数(文字列、文字、数、Boolean)
 hi Constant guifg=#BCF2CE guibg=NONE gui=none
