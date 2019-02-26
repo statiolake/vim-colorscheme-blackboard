@@ -137,10 +137,10 @@ hi! link Title Special
 " ステータスライン
 "--------------------------------------------------------------------------------
 " アクティブなステータスライン
-hi StatusLine guifg=#7c8280 guibg=#282e2f gui=bold
+hi StatusLine guifg=#7c8280 guibg=#2A352B gui=bold
 
 " 非アクティブなステータスライン
-hi StatusLineNC guifg=#7c8280 guibg=#282e2f gui=none
+hi StatusLineNC guifg=#7c8280 guibg=#2A352B gui=none
 
 " プロンプトメッセージ
 hi Question guifg=#d88f56 guibg=NONE gui=none
