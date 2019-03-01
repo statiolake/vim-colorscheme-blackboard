@@ -194,6 +194,10 @@ hi! link typescriptBraces Normal
 hi! link typescriptNull Constant
 hi! link typescriptEndColons Operator
 
+" Toml
+"--------------------------------------------------------------------------------
+hi! link tomlKey Normal
+
 " Rust
 "--------------------------------------------------------------------------------
 hi! link rustCommentLineDoc DocComment
