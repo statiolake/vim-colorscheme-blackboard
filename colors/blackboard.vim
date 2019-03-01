@@ -1,4 +1,4 @@
-" Slime --- port of VSCode Slime theme.
+" Blackboard - Simple green colorscheme
 
 let colors_name = "blackboard"
 set background=dark
