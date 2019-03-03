@@ -200,6 +200,10 @@ hi! link StorageClass Keyword
 hi! link csNew Operator
 hi! link csIsAs Operator
 
+" XML
+"--------------------------------------------------------------------------------
+hi! link xmlAttrib Normal
+
 " Toml
 "--------------------------------------------------------------------------------
 hi! link tomlKey Normal
