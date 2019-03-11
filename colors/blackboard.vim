@@ -182,6 +182,7 @@ hi GitGutterRemove guifg=#94151b guibg=NONE gui=none
 "================================================================================
 hi Operator guifg=#B2A795 guibg=NONE gui=none
 hi! link Delimiter Operator
+hi! link Funcition Normal
 " Diff
 "--------------------------------------------------------------------------------
 hi diffRemoved guifg=NONE guibg=#662B2E gui=none
