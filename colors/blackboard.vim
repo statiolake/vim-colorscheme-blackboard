@@ -221,3 +221,7 @@ hi ALEErrorSign guifg=fg guibg=#685354 gui=none
 
 hi ALEWarningLine guifg=NONE guibg=NONE gui=none
 hi ALEWarning guifg=NONE guibg=NONE gui=undercurl guisp=#0daeaf
+
+" Coc
+"--------------------------------------------------------------------------------
+hi! default CocHighlightText guifg=NONE guibg=#4A5050 gui=none
