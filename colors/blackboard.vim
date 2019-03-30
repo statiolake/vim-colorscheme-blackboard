@@ -224,4 +224,5 @@ hi ALEWarning guifg=NONE guibg=NONE gui=undercurl guisp=#0daeaf
 
 " Coc
 "--------------------------------------------------------------------------------
-hi! default CocHighlightText guifg=NONE guibg=#4A5050 gui=none
+hi! CocHighlightText guifg=NONE guibg=#4A5050 gui=none
+hi! CocFloating guifg=NONE guibg=#2d3736 gui=none
