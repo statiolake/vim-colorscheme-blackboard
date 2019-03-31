@@ -200,7 +200,7 @@ hi! link typescriptEndColons Operator
 hi! link StorageClass Keyword
 hi! link csNew Operator
 hi! link csIsAs Operator
-hi! link csEndSemicolon Operator
+hi! link csEndColon Operator
 
 " XML
 "--------------------------------------------------------------------------------
