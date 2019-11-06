@@ -177,6 +177,10 @@ hi GitGutterAdd guifg=#587c0c guibg=NONE gui=none
 hi GitGutterChange guifg=#0c7d9d guibg=NONE gui=none
 hi GitGutterRemove guifg=#94151b guibg=NONE gui=none
 
+" NERDTree
+"--------------------------------------------------------------------------------
+hi Directory guifg=#ABDBB7 guibg=NONE gui=none
+
 "================================================================================
 " 言語ごとの設定
 "================================================================================
