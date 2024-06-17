@@ -11,6 +11,9 @@ hi! clear
 " 通常
 hi Normal guifg=#CEC0AB guibg=#242D25 gui=none
 
+" Floating Window
+hi NormalFloat guifg=fg guibg=#2d3736 gui=none
+
 " Conceal
 hi! link Conceal Normal
 
