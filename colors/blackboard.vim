@@ -247,3 +247,13 @@ hi ALEVirtualTextWarning guifg=#d8d29a guibg=NONE gui=none
 "--------------------------------------------------------------------------------
 hi! CocHighlightText guifg=NONE guibg=#4A5050 gui=none
 hi! CocFloating guifg=NONE guibg=#404F4D gui=none
+
+" Built-in LSP
+"--------------------------------------------------------------------------------
+hi! DiagnosticError guifg=#f44747 guibg=NONE gui=none
+hi! DiagnosticSignError guifg=#f44747 guibg=NONE gui=none
+hi! DiagnosticUnderlineError guifg=NONE guibg=NONE gui=undercurl guisp=#f44747
+hi! DiagnosticWarn guifg=#d8d29a guibg=NONE gui=none
+hi! DiagnosticSignWarn guifg=#d8d29a guibg=NONE gui=none
+hi! DiagnosticUnderlineWarn guifg=NONE guibg=NONE gui=undercurl guisp=#d8d29a
+hi! link LspCodeLens NonText
