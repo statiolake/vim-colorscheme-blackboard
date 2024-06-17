@@ -40,7 +40,8 @@ hi! link Repeat Statement
 hi! link Exception Statement
 
 " 関数、識別子
-hi! Identifier guifg=#ABDBB7 guibg=NONE gui=none
+"hi! Identifier guifg=#ABDBB7 guibg=NONE gui=none
+hi! link Identifier Normal
 
 " プリプロセッサメソッド
 hi! PreProc guifg=#ACEFAE guibg=NONE gui=none
@@ -49,7 +50,11 @@ hi! PreProc guifg=#ACEFAE guibg=NONE gui=none
 hi Type guifg=#ABDBB7 guibg=NONE gui=none
 
 " 定数(文字列、文字、数、Boolean)
-hi Constant guifg=#BCF2CE guibg=NONE gui=none
+hi! link Constant Normal
+hi blackboardLiteral guifg=#BCF2CE guibg=NONE gui=none
+hi! link String blackboardLiteral
+hi! link Number blackboardLiteral
+hi! link Boolean blackboardLiteral
 
 " 特殊記号
 hi Special guifg=#ACEFAE guibg=NONE gui=none
@@ -190,6 +195,11 @@ hi Directory guifg=#ABDBB7 guibg=NONE gui=none
 hi Operator guifg=#B2A795 guibg=NONE gui=none
 hi! link Delimiter Operator
 hi! link Function Normal
+
+" Lua
+"--------------------------------------------------------------------------------
+hi! link @constructor.lua Normal
+
 " Diff
 "--------------------------------------------------------------------------------
 hi diffRemoved guifg=NONE guibg=#662B2E gui=none
