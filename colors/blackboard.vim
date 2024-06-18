@@ -97,7 +97,7 @@ hi DiffText guifg=NONE guibg=#668C8C gui=none
 " 変更された行
 hi DiffChange guifg=NONE guibg=#415959 gui=none
 
- 
+
 " ポップアップメニュー
 "--------------------------------------------------------------------------------
 " 通常の項目
@@ -247,6 +247,7 @@ hi ALEVirtualTextWarning guifg=#d8d29a guibg=NONE gui=none
 "--------------------------------------------------------------------------------
 hi! CocHighlightText guifg=NONE guibg=#4A5050 gui=none
 hi! CocFloating guifg=NONE guibg=#404F4D gui=none
+hi! link CocCodeLens NonText
 
 " Built-in LSP
 "--------------------------------------------------------------------------------
