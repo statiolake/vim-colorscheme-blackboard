@@ -40,17 +40,17 @@ hi! link Repeat Statement
 hi! link Exception Statement
 
 " 関数、識別子
-"hi! Identifier guifg=#ABDBB7 guibg=NONE gui=none
-hi! link Identifier Normal
+"hi Identifier guifg=#ABDBB7 guibg=NONE gui=none
+hi Identifier guifg=#CEC0AB guibg=NONE gui=none
 
 " プリプロセッサメソッド
-hi! PreProc guifg=#ACEFAE guibg=NONE gui=none
+hi PreProc guifg=#ACEFAE guibg=NONE gui=none
 
 " 型 (クラス、構造体)
 hi Type guifg=#ABDBB7 guibg=NONE gui=none
 
 " 定数(文字列、文字、数、Boolean)
-hi! link Constant Normal
+hi Constant guifg=#CEC0AB guibg=NONE gui=none
 hi blackboardLiteral guifg=#BCF2CE guibg=NONE gui=none
 hi! link String blackboardLiteral
 hi! link Number blackboardLiteral
@@ -154,10 +154,10 @@ hi StatusLineNC guifg=#7c8280 guibg=#2A352B gui=none
 hi Question guifg=#d88f56 guibg=NONE gui=none
 
 " '-- INSERT --' メッセージ
-hi! link ModeMsg Normal
+hi ModeMsg guifg=#CEC0AB guibg=NONE gui=none
 
 " '-- More --' メッセージ
-hi! link MoreMsg Normal
+hi MoreMsg guifg=#CEC0AB guibg=NONE gui=none
 
 " 警告メッセージ
 hi WarningMsg guifg=#d8d29a guibg=NONE gui=none
@@ -194,11 +194,11 @@ hi Directory guifg=#ABDBB7 guibg=NONE gui=none
 "================================================================================
 hi Operator guifg=#B2A795 guibg=NONE gui=none
 hi! link Delimiter Operator
-hi! link Function Normal
+hi Function guifg=#CEC0AB guibg=NONE gui=none
 
 " Lua
 "--------------------------------------------------------------------------------
-hi! link @constructor.lua Normal
+hi @constructor.lua guifg=#CEC0AB guibg=NONE gui=none
 
 " Diff
 "--------------------------------------------------------------------------------
@@ -208,9 +208,9 @@ hi diffAdded guifg=NONE guibg=#466060 gui=none
 " TypeScript
 "--------------------------------------------------------------------------------
 hi! link typescriptDocComment DocComment
-hi! link typescriptBraces Normal
 hi! link typescriptNull Constant
 hi! link typescriptEndColons Operator
+hi! link typescriptBraces Operator
 
 " C#
 "--------------------------------------------------------------------------------
@@ -221,11 +221,11 @@ hi! link csEndColon Operator
 
 " XML
 "--------------------------------------------------------------------------------
-hi! link xmlAttrib Normal
+hi xmlAttrib guifg=#CEC0AB guibg=NONE gui=none
 
 " Toml
 "--------------------------------------------------------------------------------
-hi! link tomlKey Normal
+hi tomlKey guifg=#CEC0AB guibg=NONE gui=none
 
 " Rust
 "--------------------------------------------------------------------------------
